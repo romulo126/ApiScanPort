@@ -63,7 +63,7 @@
 ### Resultado:
 - Retorna um JSON com o status da análise.
 - Exemplo:
-    - `{"msg":["PASTA/DATA_HORA.txt = Scanning"],"status":true}
-    - { "msg":["PASTA/DATA_HORA.txt = finished"],"status":true }
+    - `{"msg":["PASTA/DATA_HORA.txt = Scanning"],"status":true}`
+    - `{ "msg":["PASTA/DATA_HORA.txt = finished"],"status":true }`
     `
 `
