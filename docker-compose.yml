@@ -1,0 +1,15 @@
+version: '3'
+services:
+    scanportflask:
+        build: .
+        ports:
+            - "${PORT_DOCKER}:${PORT_FLASK}"
+        volumes:
+            - ./src:/code
+        env_file: 
+            - .env
+    redis:
+        image: redis
+        command: 'redis-server /usr/local/etc/redis/redis.conf --requirepass ${PASSWORD_REDIS}'
+        volumes:
+            - './redis.conf:/usr/local/etc/redis/redis.conf'
