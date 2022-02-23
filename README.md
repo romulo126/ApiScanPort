@@ -64,3 +64,6 @@
     -  `{
             "msg":["DIR/DATE_HORS.txt = Scanning"],"status":true
         }`
+    -  `{
+            "msg":["DIR/DATE_HORS.txt = finished"],"status":true
+        }`
